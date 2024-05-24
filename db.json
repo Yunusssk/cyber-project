@@ -1,13 +1,32 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
-  }
+  "products": [
+    { "id": 1 , "image": "../src/assets/images/Iphone14pro.png", "title": "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)", "price": "$900", "category": "new-arrival" },
+    { "id": 2 ,"image": "../src/assets/images/kamera.png", "title": "Blackmagic Pocket Cinema Camera 6k", "price": "$2535", "category": "new-arrival" },
+    { "id": 3 ,"image": "../src/assets/images/applewatch.png", "title": "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case", "price": "$399", "category": "new-arrival" },
+    { "id": 4 ,"image": "../src/assets/images/airpodsmax.png", "title": "AirPods Max Silver", "price": "$549", "category": "new-arrival" },
+    { "id": 5 ,"image": "../src/assets/images/samsungwatch.png", "title": "Samsung Galaxy Watch6 Classic 47mm Black", "price": "$369", "category": "new-arrival" },
+    { "id": 6 ,"image": "../src/assets/images/samsunggalaxy.png", "title": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black", "price": "$1799", "category": "new-arrival" },
+    { "id": 7 ,"image": "../src/assets/images/airbuds.png", "title": "Galaxy Buds FE Graphite", "price": "$99.99", "category": "new-arrival" },
+    { "id": 8 ,"image": "../src/assets/images/ipad.png", "title": "Apple iPad 9 10.2 64GB Wi-Fi Silver(MK2L3) 2021", "price": "$398", "category": "new-arrival" },
+    { "id": 9 ,"image": "../src/assets/images/samsungwatch.png", "title": "Samsung Galaxy Watch6 Classic 47mm Black", "price": "$369", "category": "best-seller" },
+    { "id": 10 ,"image": "../src/assets/images/samsunggalaxy.png", "title": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black", "price": "$1799", "category": "best-seller" },
+    { "id": 11 ,"image": "../src/assets/images/airbuds.png", "title": "Galaxy Buds FE Graphite", "price": "$99.99", "category": "best-seller" },
+    { "id": 12 ,"image": "../src/assets/images/ipad.png", "title": "Apple iPad 9 10.2 64GB Wi-Fi Silver(MK2L3) 2021", "price": "$398", "category": "best-seller" },
+    { "id": 13 , "image": "../src/assets/images/Iphone14pro.png", "title": "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)", "price": "$900", "category": "best-seller" },
+    { "id": 14 ,"image": "../src/assets/images/kamera.png", "title": "Blackmagic Pocket Cinema Camera 6k", "price": "$2535", "category": "best-seller" },
+    { "id": 15 ,"image": "../src/assets/images/applewatch.png", "title": "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case", "price": "$399", "category": "best-seller" },
+    { "id": 16 ,"image": "../src/assets/images/airpodsmax.png", "title": "AirPods Max Silver", "price": "$549", "category": "best-seller" },
+    { "id": 17 ,"image": "../src/assets/images/samsungwatch.png", "title": "Samsung Galaxy Watch6 Classic 47mm Black", "price": "$369", "category": "featured-products" },
+    { "id": 18 ,"image": "../src/assets/images/samsunggalaxy.png", "title": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black", "price": "$1799", "category": "featured-products" },
+    { "id": 19 ,"image": "../src/assets/images/samsunggalaxy.png", "title": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black", "price": "$1799", "category": "featured-products" },
+    { "id": 20 ,"image": "../src/assets/images/airbuds.png", "title": "Galaxy Buds FE Graphite", "price": "$99.99", "category": "featured-products" },
+    { "id": 21 ,"image": "../src/assets/images/ipad.png", "title": "Apple iPad 9 10.2 64GB Wi-Fi Silver(MK2L3) 2021", "price": "$398", "category": "featured-products" },
+    { "id": 22 , "image": "../src/assets/images/Iphone14pro.png", "title": "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)", "price": "$900", "category": "featured-products" },
+    { "id": 23 ,"image": "../src/assets/images/kamera.png", "title": "Blackmagic Pocket Cinema Camera 6k", "price": "$2535", "category": "featured-products" },
+    { "id": 24 ,"image": "../src/assets/images/applewatch.png", "title": "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case", "price": "$399", "category": "featured-products" },
+    { "id": 25 ,"image": "../src/assets/images/samsungwatch.png", "title": "Samsung Galaxy Watch6 Classic 47mm Black", "price": "$369", "category": "discount-part" },
+    { "id": 26 ,"image": "../src/assets/images/samsunggalaxy.png", "title": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black", "price": "$1799", "category": "discount-part" },
+    { "id": 27 ,"image": "../src/assets/images/airbuds.png", "title": "Galaxy Buds FE Graphite", "price": "$99.99", "category": "discount-part" },
+    { "id": 28 ,"image": "../src/assets/images/ipad.png", "title": "Apple iPad 9 10.2 64GB Wi-Fi Silver(MK2L3) 2021", "price": "$398", "category": "discount-part" }
+  ]
+}
