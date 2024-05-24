@@ -1,4 +1,4 @@
-import {Route, Routes, useParams} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
  import './App.css';
  import Home from './components/HomePage/Navbar';
  import About from './components/AboutPage/About';
@@ -23,7 +23,7 @@ import "slick-carousel/slick/slick-theme.css";
          <Route path='/cart' element={<Blog/>} />
          <Route path='/person' element={<Blog/>} />
           {/* eslint-disable-next-line no-undef */}
-          <Route path="/productDetail/:id" element={<ProductDetail />} />
+          <Route key={location.key} path="/productDetail/:id" element={<ProductDetail />} />
        </Routes>
          <Body />
          <Footer />

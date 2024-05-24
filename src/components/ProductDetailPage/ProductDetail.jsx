@@ -11,7 +11,7 @@ const ProductDetail = () => {
         <>
             <ProductCard />
             <p className="yunus">ÜRÜN ID: {id}</p>
-            <div></div>
+            <div>LNDKAFMALFKNAMDADADADALNDK</div>
 
 
 
