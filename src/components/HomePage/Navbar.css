@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 160px;
+    align-items: center;
+}
+
+input {
+    width: 372px;
+    height: 56px;
+    background-color: #F5F5F5;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    padding: 0 16px;
+}
+
+.link {
+    text-decoration:none;
+    color: #b3b3b3;
+}
+
+.link:hover {
+    color: #000;
+}
+
+span {
+    cursor: pointer;
+}
+
+.logo {
+    width: 65.4px;
+    height: 22.87px;
+}

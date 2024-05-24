@@ -1,0 +1,97 @@
+.BigBanner {
+    display: flex;
+}
+
+.BigBannerOne {
+    position: relative;
+    width: 384px;
+    height: 650px;
+}
+
+.BigBannerOneImgOne {
+    overflow: visible;
+}
+
+.BigBannerOneImgTwo {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    overflow: visible;
+}
+
+.BigBannerTwo {
+    width: 384px;
+    height: 650px;
+    background-color: #f9f9f9;
+}
+
+.BigBannerThree {
+    width: 384px;
+    height: 650px;
+    background-color: #eaeaea;
+}
+
+.BigBannerFour {
+    width: 384px;
+    height: 650px;
+    background-color: #2c2c2c;
+}
+
+.btn {
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btnOne {
+    background-color: white;
+}
+
+.btnTwo {
+    background-color: #f9f9f9;
+}
+
+.btnThree {
+    background-color: #eaeaea;
+}
+
+.btnFour {
+    background-color: #2c2c2c;
+    border: 1px solid #fff;
+    color: white;
+}
+
+.BigBannerTitle {
+    font-weight: 300;
+    font-size: 33px;
+    color: black;
+    margin: 0 0 15px 0;
+}
+
+.soft {
+    color: #909090;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+    letter-spacing: 1px;
+}
+
+.photograph {
+    margin: 0 0 80px 0;
+}
+
+.photographFour {
+    margin: 0 0 64px 0;
+}
+
+.titleFour {
+    color: white;
+}
+
+.writing {
+    margin: 0 32px;
+}

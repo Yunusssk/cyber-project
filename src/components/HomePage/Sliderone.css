@@ -1,0 +1,134 @@
+.SimpleSlider {
+    padding: 20px;
+    gap: 80px;
+    margin: 0 160px;
+}
+
+.slick-dots {
+    bottom: 10px;
+    display: block;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: black;
+}
+
+.slick-slide {
+    height: 200px; /* Yüksekliği ihtiyacınıza göre ayarlayın */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slick-prev, .slick-next {
+    position: absolute;
+    /*top: 50%;*/
+    transform: translateY(-50%);
+    z-index: 1;
+    display: block;
+    width: 25px;
+    height: 25px;
+    /*background-color: rgba(0, 0, 0, 0.5); !* Arka plan rengi *!*/
+    border-radius: 50%;
+    color: black; /* Okların rengi */
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+    /*color: #2e2e2e;*/
+
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+    /*font-family: 'slick';*/
+    font-size: 20px;
+    color: black;
+}
+
+/*.slick-prev:hover, .slick-next:hover {*/
+/*    background-color: #535353;*/
+/*}*/
+
+.catalogIpad {
+    width: 48px;
+    height: 48px;
+}
+
+.catalogAirpods {
+    width: 100px;
+    height: 55px;
+}
+
+.CategoryCard {
+    max-width: 170px;
+    height: 130px;
+    background-color: #ededed;
+    border-radius: 15px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.catalogPhoto {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.airpodsPosition {
+    left: 35px;
+}
+
+.SmartWatchesPosition {
+    position: absolute;
+    left: 34px !important;
+}
+
+.CamerasPosition {
+    left: 52px !important;
+}
+
+.HeadPhonesPosition {
+    left: 36px !important;
+}
+
+.ComputersPosition {
+    left: 45px !important;
+}
+
+.GamingPosition {
+    left: 57px !important;
+}
+
+.IpadPosition {
+    left: 67px !important;
+}
+
+.AirPodsPosition {
+    left: 55px !important;
+}
+
+.CatalogTitle {
+    margin: 0 0 40px 0;
+}
+
+.CatalogWrite {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    font-weight: 500;
+    font-size: 16px;
+}

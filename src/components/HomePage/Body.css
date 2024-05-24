@@ -1,0 +1,225 @@
+.body {
+
+}
+
+.mainbanner {
+    margin: 0;
+    padding: 0;
+    width: 1536px;
+    height: 674px;
+    background-color: #211c24;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.topbanner {
+    position: relative;
+    left: 160px;
+    top: 188px;
+    display: flex;
+}
+
+.banner {
+    width: 406px;
+    height: 700px;
+    position: relative;
+    top: -25px;
+    left: 240px;
+}
+
+.right {
+
+    position: relative;
+    top: 1px;
+    width: 406px;
+    height: 632px;
+
+}
+
+.left {
+    width: 714px;
+    height: 256px;
+}
+
+.paragraphFirst {
+    color: #7a777c;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.title {
+    display: flex;
+    color: white;
+    font-weight: 200;
+    font-size: 96px;
+}
+
+.pro {
+    font-weight: 500;
+}
+
+.paragraphThirth {
+    color: #909090;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0 24px 0;
+
+}
+
+.downbanner {
+
+    width: 1536px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.upBannerBtn {
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px;
+    background-color: #211c24;
+    color: #fff;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+
+.downBannerBtn {
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+
+.bottomBanner {
+    display: flex;
+}
+
+
+
+.bottomBannerLeft {
+    width: 768px;
+}
+
+.bottomBannerLeftTop {
+    display: flex;
+}
+
+.bottomBannerLeftTopWriting {
+    width: 350px;
+    height: 104px;
+    margin: 70px 0 0 0;
+}
+
+.bottomBannerLeftTopBoldWrite {
+    font-weight: 500;
+    font-size: 49px;
+}
+
+.bottomBannerLeftTopSoftWrite {
+    color: #909090;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.bottomBannerLeftDown {
+    display: flex;
+}
+
+.bottomBannerLeftDownLeft {
+    background-color: #ededed;
+    width: 384px;
+    display: flex;
+}
+
+.bottomBannerLeftDownLeftApple {
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.bottomBannerLeftDownLeftAudio {
+    color: #909090;
+    margin: 5px 0;
+}
+
+.bottomBannerLeftDownLeftDiv {
+    margin: 50px 0 0 45px;
+}
+
+
+
+
+
+.bottomBannerLeftDownRight {
+    display: flex;
+    width: 384px;
+    background-color: #353535;
+    color: white;
+}
+
+.bottomBannerLeftDownRightPro {
+    font-weight: 500;
+}
+
+.bottomBannerLeftDownRightWay {
+    font-weight: 500;
+    font-size: 14px;
+    color: #909090;
+    margin: 8px 0;
+}
+
+.bottomBannerLeftDownRightApple {
+    font-weight: 300;
+    font-size: 29px;
+}
+
+.bottomBannerLeftDownRightDiv {
+    margin: 50px 0 0 10px;
+}
+
+
+
+
+
+
+.bottomBannerRight {
+    width: 768px;
+    display: flex;
+    background-color: #ededed;
+}
+
+.bottomBannerRightBoldWrite {
+    font-weight: 200;
+    font-size: 64px;
+}
+
+.bottomBannerRightSoftWrite {
+    color: #909090;
+    margin: 20px 0;
+}
+
+.bottomBannerRightDiv {
+    width: 430px;
+    margin: 200px 0 0 50px;
+}
+
+.together {
+    display: flex;
+}
+
+.bookpro {
+    height: 500px;
+    margin: 50px 0 0 0;
+}
+
+.max {
+    font-weight: 500;
+}
+
+.air {
+    font-weight: 400;
+}

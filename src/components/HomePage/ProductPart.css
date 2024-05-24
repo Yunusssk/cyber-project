@@ -1,0 +1,33 @@
+.ProductPart {
+    height: 1050px;
+    margin: 0 160px;
+}
+
+.button {
+    color: #8b8b8b;
+    border: none;
+    text-decoration: none;
+    background: white;
+    font-size: 18px;
+    margin: 0 32px 32px 0;
+}
+
+.button:hover {
+    color: black;
+}
+
+.highlight {
+    color: black;
+    text-decoration: underline;
+}
+
+.default-button {
+    color: black; /* Metin rengi */
+    text-decoration: underline; /* Alt çizgi */
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

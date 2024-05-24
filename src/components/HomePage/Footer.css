@@ -1,0 +1,46 @@
+.footer {
+    background-color: black;
+}
+
+.information {
+    margin: 104px 160px 144px 160px;
+    display: flex;
+    gap: 45px;
+}
+
+.informationOne {
+    width: 470px;
+    letter-spacing: 0.5px;
+}
+
+.informationTwo {
+    color: #CFCFCF;
+    margin: 0 140px 0 0;
+}
+
+.informationThree {
+    color: #CFCFCF;
+}
+
+.footerInformation {
+    font-weight: 500;
+    font-size: 14px;
+    color: #CFCFCF;
+}
+
+.WhiteLogo {
+    margin: 0 0 30px 0;
+}
+
+li {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+.services {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
