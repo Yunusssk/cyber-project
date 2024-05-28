@@ -5,7 +5,7 @@ import Navbar from "../HomePage/Navbar.jsx";
 const Blog = () => {
   return (
     <div>
-        <Navbar />
+        {/*<Navbar />*/}
         <h1>Blog</h1>
     </div>
   )

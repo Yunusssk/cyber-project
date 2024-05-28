@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Sliderone.css"
+import {Link} from "react-router-dom";
 
 const SimpleSlider = () => {
     const settings = {
@@ -18,10 +19,10 @@ const SimpleSlider = () => {
         <div className="SimpleSlider">
             <h2 className="CatalogTitle">Browse By Category</h2>
             <Slider {...settings}>
-                <div className="CategoryCard">
+                <Link className="SliderLink" to='/catalog/smartphones'><div className="CategoryCard">
                     <img className="catalogPhoto phonePosition" src="../src/assets/images/Phones.png"/>
                     <p className="CatalogWrite">Phones</p>
-                </div>
+                </div></Link>
                 <div className="CategoryCard">
                     <img className="catalogPhoto" src="../src/assets/images/SmartWatches.png"/>
                     <p className="CatalogWrite SmartWatchesPosition">Smart Watches</p>

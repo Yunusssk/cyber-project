@@ -5,7 +5,7 @@ import Navbar from "../HomePage/Navbar.jsx";
 const Favorite = () => {
     return (
         <div>
-            <Navbar />
+            {/*<Navbar />*/}
             <h1>Favorite</h1>
         </div>
     )

@@ -5,7 +5,7 @@ import Navbar from "../HomePage/Navbar.jsx";
 const Contact = () => {
   return (
     <div>
-        <Navbar />
+        {/*<Navbar />*/}
         <h1>Contact</h1>
     </div>
   )

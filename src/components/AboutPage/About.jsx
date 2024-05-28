@@ -5,7 +5,7 @@ import Navbar from "../HomePage/Navbar.jsx";
 const About = () => {
   return (
     <div>
-        <Navbar />
+        {/*<Navbar />*/}
         <h1>About</h1>
     </div>
   )
