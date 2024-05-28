@@ -1,0 +1,40 @@
+.breadcrumbs {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #a4a4a4;
+    margin: 40px 160px;
+
+}
+
+.CatalogLink {
+    text-decoration: none;
+    border: none;
+    color: #a4a4a4;
+    margin: 0 30px 0 0;
+}
+
+.CatalogIcon {
+    margin: 0 30px 0 0;
+}
+
+.CatalogLink:hover {
+    color: black;
+}
+
+.Content {
+    margin: 0 160px;
+    display: flex;
+}
+
+.filters {
+    width: 256px;
+    margin: 0 32px 0 0;
+}
+
+.SmartphonesProductPart {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
