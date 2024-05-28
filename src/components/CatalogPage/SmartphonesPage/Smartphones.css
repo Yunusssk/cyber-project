@@ -30,11 +30,35 @@
 .filters {
     width: 256px;
     margin: 0 32px 0 0;
+    box-shadow: none;
 }
 
 .SmartphonesProductPart {
-    width: 900px;
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.SmartphonesProductPartMap {
+    display: flex;
+    flex-wrap: wrap;
+    /*height: 800px;*/
+    max-width: 1390px;
+}
+
+.filterActive {
+    display: flex;
+    margin: 20px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.filterCheckbox {
+    width: 15px;
+    height: 15px;
+    margin: 0 8px 0 0;
+}
+
+.filterSearch {
+    
 }

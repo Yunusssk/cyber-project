@@ -37,55 +37,247 @@
       "id": "1",
       "title": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
       "price": "$1437",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/yellowIphone14.png",
+      "category": "Apple"
+
     },
     {
       "id": "2",
       "title": "Apple iPhone 11 128GB White (MQ233)",
       "price": "$510",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/whiteIphone11.png",
+      "category": "Apple"
     },
     {
       "id": "3",
       "title": "Apple iPhone 11 128GB White (MQ233)",
       "price": "$550",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/whiteIphone11.png",
+      "category": "Apple"
     },
     {
       "id": "4",
       "title": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
       "price": "$1499",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Apple"
     },
     {
       "id": "5",
       "title": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
       "price": "$1399",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/yellowIphone14.png",
+      "category": "Apple"
     },
     {
       "id": "6",
       "title": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
       "price": "$1600",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/purpleIphone14.png",
+      "category": "Apple"
     },
     {
       "id": "7",
       "title": "Apple iPhone 13 mini 128GB Pink (MLK23)",
       "price": "$850",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/pinkIphone13.png",
+      "category": "Apple"
     },
     {
       "id": "8",
       "title": "Apple iPhone 14 Pro 256GB Space Black (MQ0T3)",
       "price": "$1399",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/blackIphone14.png",
+      "category": "Apple"
     },
     {
       "id": "9",
       "title": "Apple iPhone 14 Pro 256GB Silver (MQ103)",
       "price": "$1399",
-      "image": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=9166c13e"
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "10",
+      "title": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
+      "price": "$1600",
+      "image": "../src/assets/smartphonesImage/purpleIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "11",
+      "title": "Apple iPhone 13 mini 128GB Pink (MLK23)",
+      "price": "$850",
+      "image": "../src/assets/smartphonesImage/pinkIphone13.png",
+      "category": "Apple"
+    },
+    {
+      "id": "12",
+      "title": "Apple iPhone 14 Pro 256GB Space Black (MQ0T3)",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/blackIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "13",
+      "title": "Apple iPhone 14 Pro 256GB Silver (MQ103)",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "14",
+      "title": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "price": "$1437",
+      "image": "../src/assets/smartphonesImage/yellowIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "15",
+      "title": "Apple iPhone 11 128GB White (MQ233)",
+      "price": "$510",
+      "image": "../src/assets/smartphonesImage/whiteIphone11.png",
+      "category": "Apple"
+    },
+    {
+      "id": "16",
+      "title": "Apple iPhone 11 128GB White (MQ233)",
+      "price": "$550",
+      "image": "../src/assets/smartphonesImage/whiteIphone11.png",
+      "category": "Apple"
+    },
+    {
+      "id": "17",
+      "title": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "price": "$1499",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "18",
+      "title": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/yellowIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "19",
+      "title": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
+      "price": "$1600",
+      "image": "../src/assets/smartphonesImage/purpleIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "20",
+      "title": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
+      "price": "$1600",
+      "image": "../src/assets/smartphonesImage/purpleIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "21",
+      "title": "Apple iPhone 13 mini 128GB Pink (MLK23)",
+      "price": "$850",
+      "image": "../src/assets/smartphonesImage/pinkIphone13.png",
+      "category": "Apple"
+    },
+    {
+      "id": "22",
+      "title": "Apple iPhone 14 Pro 256GB Space Black (MQ0T3)",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/blackIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "23",
+      "title": "Apple iPhone 14 Pro 256GB Silver (MQ103)",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "24",
+      "title": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
+      "price": "$1600",
+      "image": "../src/assets/smartphonesImage/purpleIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "25",
+      "title": "Apple iPhone 13 mini 128GB Pink (MLK23)",
+      "price": "$850",
+      "image": "../src/assets/smartphonesImage/pinkIphone13.png",
+      "category": "Apple"
+    },
+    {
+      "id": "26",
+      "title": "Apple iPhone 14 Pro 256GB Space Black (MQ0T3)",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/blackIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "27",
+      "title": "Apple iPhone 14 Pro 256GB Silver (MQ103)",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Apple"
+    },
+    {
+      "id": "28",
+      "title": "Samsung",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "29",
+      "title": "Xiaomi",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "30",
+      "title": "Poco",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Poco"
+    },
+    {
+      "id": "30",
+      "title": "OPPO",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "OPPO"
+    },
+    {
+      "id": "30",
+      "title": "Honor",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Honor"
+    },
+    {
+      "id": "30",
+      "title": "Motorola",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Motorola"
+    },
+    {
+      "id": "30",
+      "title": "Nokia",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Nokia"
+    },
+    {
+      "id": "30",
+      "title": "Realme",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "category": "Realme"
     }
   ]
 }

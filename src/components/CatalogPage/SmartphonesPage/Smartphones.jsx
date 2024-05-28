@@ -1,115 +1,158 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Pagination from './Pagination';
-import './Smartphones.css'
+import './Smartphones.css';
 import ProductCard from "../../HomePage/ProductCard.jsx";
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// eslint-disable-next-line no-unused-vars
 import Button from '@mui/material/Button';
-import { styled } from '@mui/system';
-
-
-
 
 const Smartphones = () => {
-
-    // const Accordion = styled(Accordion)({
-    //     backgroundColor: '#f5f5f5',
-    //     margin: '10px 0',
-    // });
-
     const [products, setProducts] = useState([]);
-    // eslint-disable-next-line no-unused-vars
     const [currentPage, setCurrentPage] = useState(0);
-    // eslint-disable-next-line no-unused-vars
     const itemsPerPage = 9;
+    const [selectedCategories, setSelectedCategories] = useState([]); // Seçilen kategoriler
+    const [categories, setCategories] = useState([]); // Kategorileri saklamak için state
 
     useEffect(() => {
-        // Simulated API call
+        // API çağrısı
         const fetchProducts = async () => {
             const response = await fetch(`http://localhost:3000/smartphones`);
             const data = await response.json();
             setProducts(data);
+            // eslint-disable-next-line no-unused-vars
+            const uniqueCategories = Array.from(new Set(data.map(product => product.category)));
+            setCategories(uniqueCategories);
         };
         fetchProducts();
     }, []);
+
+    const handleCategoryChange = (category) => {
+        setSelectedCategories((prevSelected) =>
+            prevSelected.includes(category)
+                ? prevSelected.filter((c) => c !== category)
+                : [...prevSelected, category]
+        );
+    };
+
+    const filterProductsByCategory = (products, selectedCategories) => {
+        if (selectedCategories.length === 0) {
+            return products; // Tüm ürünleri döndür
+        } else {
+            return products.filter(product => selectedCategories.includes(product.category)); // Seçilen kategorilere göre ürünleri filtrele
+        }
+    };
 
     const handlePageChange = (selectedPage) => {
         setCurrentPage(selectedPage.selected);
     };
 
+    const filteredProducts = filterProductsByCategory(products, selectedCategories);
     const offset = currentPage * itemsPerPage;
-    const currentPageData = products.slice(offset, offset + itemsPerPage);
-    const pageCount = Math.ceil(products.length / itemsPerPage);
+    const currentPageData = filteredProducts.slice(offset, offset + itemsPerPage);
+    const pageCount = Math.ceil(filteredProducts.length / itemsPerPage);
 
-
-    return(
+    return (
         <>
             <div className="breadcrumbs">
                 <Link className="CatalogLink" to='/'>Home</Link>
                 <img className="CatalogIcon" src="../src/assets/images/Arrow.png" />
                 <Link className="CatalogLink" to='/catalog'>Catalog</Link>
                 <img className="CatalogIcon" src="../src/assets/images/Arrow.png"/>
-                 <Link className="CatalogLink" to='/catalog/smartphones'>Smartphones</Link>
+                <Link className="CatalogLink" to='/catalog/smartphones'>Smartphones</Link>
             </div>
             <div className="Content">
                 <div className="filters">
+                    <input className="filterSearch" type="text" />
                     <Accordion>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel1-content"
                             id="panel1-header"
                         >
-                            Accordion 1
+                            Categories
                         </AccordionSummary>
                         <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            {categories.map((category) => (
+                                <div className="filterActive" key={category}>
+                                    <input className="filterCheckbox"
+                                        type="checkbox"
+                                        checked={selectedCategories.includes(category)}
+                                        onChange={() => handleCategoryChange(category)}
+                                    />
+                                    <label>
+                                        {category}
+                                    </label>
+                                </div>
+                            ))}
                         </AccordionDetails>
                     </Accordion>
                     <Accordion>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2-content"
+                            aria-controls="panel1-content"
                             id="panel2-header"
                         >
-                            Accordion 2
+                            Battery capacity
                         </AccordionSummary>
                         <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            {categories.map((category) => (
+                                <div className="filterActive" key={category}>
+                                    <input className="filterCheckbox"
+                                           type="checkbox"
+                                           checked={selectedCategories.includes(category)}
+                                           onChange={() => handleCategoryChange(category)}
+                                    />
+                                    <label>
+                                        {category}
+                                    </label>
+                                </div>
+                            ))}
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion defaultExpanded>
+                    <Accordion>
                         <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel3-content"
-                            id="panel3-header"
+                            id="panel1-header"
                         >
-                            Accordion Actions
+                            Built-in memory
                         </AccordionSummary>
                         <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            {categories.map((category) => (
+                                <div className="filterActive" key={category}>
+                                    <input className="filterCheckbox"
+                                           type="checkbox"
+                                           checked={selectedCategories.includes(category)}
+                                           onChange={() => handleCategoryChange(category)}
+                                    />
+                                    <label>
+                                        {category}
+                                    </label>
+                                </div>
+                            ))}
                         </AccordionDetails>
-                        <AccordionActions>
-                            <Button>Cancel</Button>
-                            <Button>Agree</Button>
-                        </AccordionActions>
                     </Accordion>
                 </div>
                 <div className="SmartphonesProductPart">
-                    {currentPageData.map((product) => (
+                    <div className="SmartphonesProductPartMap">
+                        {currentPageData.map((product) => (
                         <ProductCard key={product.id} id={product.id} image={product.image} title={product.title} price={product.price} />
                     ))}
-                    <Pagination pageCount={pageCount} handlePageChange={handlePageChange} />
+                    </div>
+
+                    <div className="SmartphonesProductPartPagination">
+                        <Pagination pageCount={pageCount} handlePageChange={handlePageChange} />
+                    </div>
+
                 </div>
             </div>
         </>
-    )
+    );
 }
+
 export default Smartphones;
