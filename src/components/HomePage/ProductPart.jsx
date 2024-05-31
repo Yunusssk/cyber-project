@@ -11,19 +11,19 @@ function highlightButton(event) {
 }
 
 const ProductPart = () => {
-    const [product, setProduct] = useState([]);
+    const [product, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
 
     const fetchProductsByCategory = async (category) => {
-        setLoading(false);
+        setLoading(true); // Başlangıçta yükleniyor durumunu true yap
         try {
             const response = await fetch(`http://localhost:3000/products?category=${category}`);
             const data = await response.json();
-            setProduct(data);
-            setLoading(false);
+            setProducts(data); // Doğru state değişkenini kullan
+            setLoading(false); // Veri başarıyla yüklendiğinde yükleniyor durumunu false yap
         } catch (error) {
             console.error('Error fetching data:', error);
-            setLoading(false);
+            setLoading(false); // Hata durumunda yükleniyor durumunu false yap
         }
     };
 
@@ -73,32 +73,3 @@ const ProductPart = () => {
 }
 
 export default ProductPart;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -225,58 +225,317 @@
     },
     {
       "id": "28",
-      "title": "Samsung",
+      "title": "Samsung Galaxy S22 Ultra",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "image": "../src/assets/smartphonesImage/samsunggalaxy22ultra.png",
       "category": "Samsung"
     },
     {
       "id": "29",
-      "title": "Xiaomi",
+      "title": "Samsung Galaxy S23 Ultra",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "image": "../src/assets/smartphonesImage/samsunggalaxys23ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "30",
+      "title": "Samsung Galaxy S24 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/samsunggalaxys24ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "31",
+      "title": "Samsung Galaxy S23 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/samsunggalaxys23ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "32",
+      "title": "Samsung Galaxy S22 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/samsunggalaxy22ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "33",
+      "title": "Samsung Galaxy S23 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/samsunggalaxys23ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "34",
+      "title": "Samsung Galaxy S24 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/samsunggalaxys24ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "35",
+      "title": "Samsung Galaxy S22 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/samsunggalaxy22ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "36",
+      "title": "Samsung Galaxy S23 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/samsunggalaxys23ultra.png",
+      "category": "Samsung"
+    },
+    {
+      "id": "37",
+      "title": "Xiaomi 13T",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi13t.png",
       "category": "Xiaomi"
     },
     {
-      "id": "30",
-      "title": "Poco",
+      "id": "38",
+      "title": "Xiaomi 13T Pro",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
-      "category": "Poco"
+      "image": "../src/assets/smartphonesImage/xiaomi13tpro.png",
+      "category": "Xiaomi"
     },
     {
-      "id": "30",
-      "title": "OPPO",
+      "id": "39",
+      "title": "Xiaomi 14",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "image": "../src/assets/smartphonesImage/xiaomi14.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "40",
+      "title": "Xiaomi 14 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi14ultra.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "41",
+      "title": "Xiaomi 13T Pro",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi13tpro.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "42",
+      "title": "Xiaomi 13T",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi14.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "43",
+      "title": "Xiaomi 14",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi13t.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "44",
+      "title": "Xiaomi 14 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi14ultra.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "45",
+      "title": "Xiaomi 13T Pro",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi13tpro.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "46",
+      "title": "Xiaomi 14",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi14.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "47",
+      "title": "Xiaomi 14 Ultra",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi14ultra.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "48",
+      "title": "Xiaomi 13T Pro",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/xiaomi13tpro.png",
+      "category": "Xiaomi"
+    },
+    {
+      "id": "49",
+      "title": "POCO C65",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/pocoC65.png",
+      "category": "POCO"
+    },
+    {
+      "id": "50",
+      "title": "POCO M6 Pro",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/pocoM6pro.png",
+      "category": "POCO"
+    },
+    {
+      "id": "51",
+      "title": "POCO X6 Pro 5G",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/pocoX6pro5g.png",
+      "category": "POCO"
+    },
+    {
+      "id": "52",
+      "title": "POCO X6 5G",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/pocoX65g.png",
+      "category": "POCO"
+    },
+    {
+      "id": "53",
+      "title": "POCO M6 Pro",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/pocoM6pro.png",
+      "category": "POCO"
+    },
+    {
+      "id": "54",
+      "title": "POCO X6 Pro 5G",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/pocoX6pro5g.png",
+      "category": "POCO"
+    },
+    {
+      "id": "55",
+      "title": "POCO C65",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/pocoC65.png",
+      "category": "POCO"
+    },
+    {
+      "id": "56",
+      "title": "OPPO Find X2",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/OPPOFindX2.png",
       "category": "OPPO"
     },
     {
-      "id": "30",
-      "title": "Honor",
+      "id": "57",
+      "title": "OPPO Reno3 Pro",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "image": "../src/assets/smartphonesImage/Reno5-F-navigation-black-v2.png.thumb.webp",
+      "category": "OPPO"
+    },
+    {
+      "id": "58",
+      "title": "OPPO Reno11 F 5G",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/OPPOreno11F5G.png",
+      "category": "OPPO"
+    },
+    {
+      "id": "59",
+      "title": "OPPO Reno3 Pro",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/OPPOReno3Pro.png",
+      "category": "OPPO"
+    },
+    {
+      "id": "60",
+      "title": "OPPO Find X2",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/OPPOFindX2.webp",
+      "category": "OPPO"
+    },
+    {
+      "id": "61",
+      "title": "OPPO Reno3 Pro",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/OPPOReno3Pro.png",
+      "category": "OPPO"
+    },
+    {
+      "id": "62",
+      "title": "Honor 90",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/honor-x9b-5g-860dae.webp",
       "category": "Honor"
     },
     {
-      "id": "30",
-      "title": "Motorola",
+      "id": "63",
+      "title": "Honor X9a",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "image": "../src/assets/smartphonesImage/honor-x9b-5g-860dae.webp",
+      "category": "Honor"
+    },
+    {
+      "id": "64",
+      "title": "Honor X9b",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/honor-x9b-5g-860dae.webp",
+      "category": "Honor"
+    },
+    {
+      "id": "66",
+      "title": "Moto G 5G - 2024",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/moto-g-5G-ecom-render-1-sedona-sage-6jsibwb7.png",
       "category": "Motorola"
     },
     {
-      "id": "30",
-      "title": "Nokia",
+      "id": "67",
+      "title": "Moto G Play - 2024",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "image": "../src/assets/smartphonesImage/motorola-g-play-2024-ecom-render-1-sapphire-blue-axdwcq6e.png",
+      "category": "Motorola"
+    },
+    {
+      "id": "68",
+      "title": "Moto G Power 5G - 2024",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/Moto-g-Power-5G-pdp-ecom-render-5-color-1-166ljejx.png",
+      "category": "Motorola"
+    },
+    {
+      "id": "66",
+      "title": "Nokia 5.1 Plus",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/1553080221_Nokia_5_1_Plus_BLACK_back-1024x1024.png",
       "category": "Nokia"
     },
     {
-      "id": "30",
-      "title": "Realme",
+      "id": "67",
+      "title": "Nokia 5.1 Plus",
       "price": "$1399",
-      "image": "../src/assets/smartphonesImage/whiteIphone14.png",
+      "image": "../src/assets/smartphonesImage/1553080221_Nokia_5_1_Plus_BLACK_back-1024x1024.png",
+      "category": "Nokia"
+    },
+    {
+      "id": "68",
+      "title": "Realme 12",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/170850139998146c2183ef4824e00ab6ed688ebc55037.png.webp",
+      "category": "Realme"
+    },
+    {
+      "id": "69",
+      "title": "Realme 12",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/170850139998146c2183ef4824e00ab6ed688ebc55037.png.webp",
+      "category": "Realme"
+    },
+    {
+      "id": "70",
+      "title": "Realme 12",
+      "price": "$1399",
+      "image": "../src/assets/smartphonesImage/170850139998146c2183ef4824e00ab6ed688ebc55037.png.webp",
       "category": "Realme"
     }
   ]

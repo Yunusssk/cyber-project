@@ -13,13 +13,16 @@ const ProductCard = (props) => {
     // eslint-disable-next-line
     const price = props.price;
     // const detailPath = `/productDetail/${id}`;
-    // console.log(detailPath)
+
+    // eslint-disable-next-line react/prop-types
+    const product = props.category;
+    console.log(product)
 
     return(
         <>
             <div className="productContainer" key={id}>
                 <span className="material-symbols-outlined span">favorite</span>
-                <img className="productImage" src={image}></img>
+                <img className="productImage" src={image} />
                 <p className="productTitle">{title}</p>
                 <p className="productPrice">{price}</p>
                 <Link className="productP productButton" to={`/productDetail/${id}`}><p className="writePosition">Buy Now</p></Link>

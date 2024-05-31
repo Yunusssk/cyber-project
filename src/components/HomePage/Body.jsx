@@ -70,7 +70,7 @@ const Body = () => {
                 <SimpleSlider />
                 <ProductPart/>
                 <BigBanner />
-                <DiscountProductPart />
+                <DiscountProductPart  message="Discounts up to -50%"/>
                 <CampaignPart />
             </div>
         </>

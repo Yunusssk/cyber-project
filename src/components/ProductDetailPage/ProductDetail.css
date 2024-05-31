@@ -1,0 +1,100 @@
+.productDetail {
+    /*margin: 0 160px;*/
+    overflow: visible;
+}
+
+.productDetailBreadcrumbs {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #a4a4a4;
+    margin: 40px 160px;
+}
+
+.mainInfo {
+    margin: 120px 160px;
+    display: flex;
+}
+
+.productDetailImagesPart {
+    display: flex;
+}
+
+.productDetailImagePartLeft {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 30px 0;
+}
+
+.productDetailImagePartLeft img {
+    width: 90px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.productDetailImagePartRight {
+
+}
+
+.productDetailImagePartRight img {
+    width: 450px;
+    height: 500px;
+    /*position: relative;*/
+    /*top: -20px;*/
+    /*overflow: visible;*/
+}
+
+.selectColor {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.selectColor label {
+    margin: 0 25px 0 0;
+}
+
+.selectColor div {
+    margin: 0 10px;
+}
+
+.productDetailInfoPart {
+    width: 550px;
+    margin: 0 0 0 50px;
+}
+
+.selectColor1 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+.selectColor2 {
+    width: 40px;
+    height: 40px;
+    background-color: #781dbc;
+    border-radius: 50%;
+}
+
+.selectColor3 {
+    width: 40px;
+    height: 40px;
+    background-color: #e10000;
+    border-radius: 50%;
+}
+
+.selectColor4 {
+    width: 40px;
+    height: 40px;
+    background-color: #e1b000;
+    border-radius: 50%;
+}
+
+.selectColor5 {
+    width: 40px;
+    height: 40px;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+}
+
+

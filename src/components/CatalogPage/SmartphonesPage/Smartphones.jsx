@@ -12,7 +12,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 
 const Smartphones = () => {
-    const [products, setProducts] = useState([]);
+    const [smartphones, setSmartphones] = useState([]);
     const [currentPage, setCurrentPage] = useState(0);
     const itemsPerPage = 9;
     const [selectedCategories, setSelectedCategories] = useState([]); // Seçilen kategoriler
@@ -23,7 +23,7 @@ const Smartphones = () => {
         const fetchProducts = async () => {
             const response = await fetch(`http://localhost:3000/smartphones`);
             const data = await response.json();
-            setProducts(data);
+            setSmartphones(data);
             // eslint-disable-next-line no-unused-vars
             const uniqueCategories = Array.from(new Set(data.map(product => product.category)));
             setCategories(uniqueCategories);
@@ -51,14 +51,14 @@ const Smartphones = () => {
         setCurrentPage(selectedPage.selected);
     };
 
-    const filteredProducts = filterProductsByCategory(products, selectedCategories);
+    const filteredProducts = filterProductsByCategory(smartphones, selectedCategories);
     const offset = currentPage * itemsPerPage;
     const currentPageData = filteredProducts.slice(offset, offset + itemsPerPage);
     const pageCount = Math.ceil(filteredProducts.length / itemsPerPage);
 
     return (
         <>
-            <div className="breadcrumbs">
+            <div className="SmartphonesBreadcrumbs">
                 <Link className="CatalogLink" to='/'>Home</Link>
                 <img className="CatalogIcon" src="../src/assets/images/Arrow.png" />
                 <Link className="CatalogLink" to='/catalog'>Catalog</Link>
@@ -140,8 +140,8 @@ const Smartphones = () => {
                 </div>
                 <div className="SmartphonesProductPart">
                     <div className="SmartphonesProductPartMap">
-                        {currentPageData.map((product) => (
-                        <ProductCard key={product.id} id={product.id} image={product.image} title={product.title} price={product.price} />
+                        {currentPageData.map((smartphones) => (
+                        <ProductCard key={smartphones.id} id={smartphones.id} image={smartphones.image} title={smartphones.title} price={smartphones.price} />
                     ))}
                     </div>
 

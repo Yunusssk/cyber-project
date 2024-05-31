@@ -1,4 +1,4 @@
-.breadcrumbs {
+.bSmartphonesBreadcrumbs {
     align-items: center;
     display: flex;
     text-align: center;
@@ -35,8 +35,6 @@
 
 .SmartphonesProductPart {
     width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .SmartphonesProductPartMap {
@@ -60,5 +58,5 @@
 }
 
 .filterSearch {
-    
+
 }

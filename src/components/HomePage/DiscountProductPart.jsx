@@ -5,7 +5,8 @@ import {Link} from "react-router-dom";
 import ProductCard from "./ProductCard.jsx";
 import './DiscountProductPart.css'
 
-const DiscountProductPart = () => {
+// eslint-disable-next-line react/prop-types
+const DiscountProductPart = ({message}) => {
     const [discountProducts, setDiscountProducts] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -30,11 +31,13 @@ const DiscountProductPart = () => {
     if (loading) {
         return <div>Loading...</div>;
     }
+    // eslint-disable-next-line
+    // const message = "Discounts up to -50%";
 
     return(
         <>
             <div className="discountPart">
-                <p className="discountTitle">Discounts up to -50%</p>
+                <p className="discountTitle">{message}</p>
                 <div className="discountProductPart">
                     {discountProducts.map(product => (
                         <ProductCard key={product.id} image={product.image} title={product.title} price={product.price}/>

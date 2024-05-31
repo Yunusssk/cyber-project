@@ -1,5 +1,5 @@
 .body {
-
+    scroll-behavior: smooth;
 }
 
 .mainbanner {
@@ -82,7 +82,7 @@
     border: 1px;
     background-color: #211c24;
     color: #fff;
-    border: 1px solid #FFF;
+    border: 1px solid #ffffff;
     cursor: pointer;
 }
 
